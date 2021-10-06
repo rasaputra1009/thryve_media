@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>thryve Media</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="first scrollBorder">
+        <div class="first-con">
+            <a><img class="logo" src="./Images/logo.png"></a>
+            <p class="slogan">Where people, partners,<br>and profits thryve</p>
+            <ul class="items">
+                <li><a href='#search' onclick="show1()">Search</a></li>
+                <li><a href='#video' onclick="show2()">Video</a></li>
+                <li><a href='#mobile' onclick="show3()">Mobile</a></li>
+            </ul>
+        </div>
+        <div class="navbar" id="navbarr">
+            <button onclick="items()" href="#" class="menu"><img src="./Images/menu.png"></button>
+            <ul class="navbar-items">
+                <li><a href='#about-us'>about us</a></li>
+                <li><a target='#solutions'>solutions</a></li>
+                <li><a href='#whyus'>why us?</a></li>
+                <li class="navbar-logo" style="pointer-events: none;"><a href="#"><img class="navbar-logo1"
+                            src="./Images/logo.png"></a></li>
+                <li><a href='#reporting'>reporting</a></li>
+                <li><a href="#thryve">thryve for a cause</a></li>
+                <li style="margin-right:100px;"><a href="#reach">reach us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="second scrollBorder" id="about-us">
+        <p class="welcome">Hello!</p>
+        <p class="about">We are <span>Thryve Media</span>. We're a boutique digital media company from Boston.</p>
+        <p class="about">We focus on building lasting partnerships centered on</p>
+        <p class="about"><span>search, video</span> and <span>mobile</span> monetization.</p>
+        <div class="thryvePartners">
+            <h5>Partners that Thryve</h5>
+            <div class="partLogos">
+                <img src="./Images/logoPartner-yahoo.png" alt="yahoo">
+                <img src="./Images/logoPartner-mopub.png" alt="mopub">
+                <img src="./Images/logoPartner-flurry.png" alt="FLURRY">
+                <img src="./Images/logoPartner-haystag.png" alt="haystagg">
+            </div>
+        </div>
+    </div>
+    <!-- Third -->
+    <div class="third scrollBorder" id="solutions">
+        <ul>
+            <div class="third-con">
+                <li class="features"><button onclick='show1()'> <img id='search' class="features-items"
+                            src="./Images/search.png">
+                        <h1 class="feature-name">Search</h1>
+                        <p id="demo1">
+                            We work with premium publishers and developers to integrate targeted paid search
+                            ads across your site or app. We offer 1-click and 2-click (D2S) solutions that can be
+                            customized
+                            to any implementation. Approved publishers and developers will have access to one of the
+                            world's
+                            largest pools of keyword-targeted ads, real-time reporting and industry leading payouts
+                            <button id="close1" onclick='closeit1()'><img id="img1" src="bg-closeFeature.png"></button>
+                        </p>
+                    </button>
+                </li>
+                <li class="featuresmid"><button onclick='show2()'><img id='video' class="features-items"
+                            src="./Images/video.png">
+                        <h1 class="feature-name">Video</h1>
+                        <p id="demo2">
+                            We work with advertisers and demand partners to deliver user-initiated
+                            VAST-enabled brand safe video inventory at scale.
+                            You can target your audience across multi-screens using valuable insights such as age,
+                            gender
+                            and geo.
+                            CPM and performance models available
+                            <button id="close2" onclick='closeit2()'><img id="img2" src="./Images/bg-closeFeature.png"></button>
+                        </p>
+                    </button>
+                </li>
+                <li class="features"><button onclick='show3()'><img id='mobile' class="features-items" src="./Images/mobile.png">
+                        <h1 class="feature-name">Mobile</h1>
+                        <p id="demo3">
+                            We help publishers and app
+                            developers monetize their mobile
+                            traffic, acquire high quality installs
+                            and drive conversions.
+                            We work with all the major ad formats –
+                            banner, interstitial and video – and can work with you on a variety of performance models,
+                            including:
+                            Cost per Install (CPI), Cost per Thousand (CPM) and Cost per Click (CPC)
+                            <button id="close3" onclick='closeit3()'><img id="img3" src="./Images/bg-closeFeature.png"></button>
+                        </p>
+                    </button> </li>
+            </div>
+        </ul>
+    </div>
+    <!-- Four -->
+    <div class="four scrollBorder" id="whyus">
+        <p class="four-welcome ">Why Thryve Media?</p>
+        <p class="four-info">At Thryve, we believe that business done right feels right and that a promise and a
+            handshake
+            still have meaning. We seek to partner with likeminded companies that share
+            our passion for digital media, making dollars and keeping it fun
+            We combine decades of digital media experience, strong industry relationships and
+            next-generation ad tech solutions to help connect premium advertisers with top quality search
+            video and mobile inventory. This means more revenue and less work for you.
+        </p>
+        <br><br><br>
+        <p class="four-green"></p>
+        <ul class="four-con">
+            <li class="four-items">
+                <span><img src="./Images/set1.png"></span>
+                <p class="set-info">Accelerate revenue<br />with our innovative<br />ad solutions</p>
+            </li>
+            <li class="four-items">
+                <span><img src="./Images/set2.png"></span>
+                <p class="set-info">Access hundreds<br>of thousands of high<br />quality advertisers</p>
+            </li>
+            <li class="four-items">
+                <span><img src="./Images/set3.png"></span>
+                <p class="set-info">Customize our ad<br>solutions for a<br>perfect fit</p>
+            </li>
+            <li class="four-items">
+                <span><img src="./Images/set4.png"></span>
+                <p class="set-info">Track stats on your<br>computer, mobile phone<br>or tablet</p>
+            </li>
+        </ul>
+    </div>
+    <!-- Five -->
+    <div class="five scrollBorder" id="reporting">
+        <ul class="five-con">
+            <li>
+                <span><img class="five-con1" src="./Images/five1.png"></span>
+                <h1>Reporting</h1>
+                <p class="five-info">We provide you with an online dashboard that lets you effectively manage your
+                    account and track key performance indicators. Our dashboard works seamlessly across devices so you
+                    can track stats on your computer, mobile phone or tablet.</p>
+            </li>
+            <li class="five-border"></li>
+            <li>
+                <span><img class="five-con2" src="./Images/five2.png"></span>
+                <h1>Accouting Management</h1>
+                <p class="five-info">Our team of account managers will work with you each step of the way. From
+                    day-to-day operations to strategic account planning you will have a devoted account specialist
+                    working with you hand in hand to help accelerate growth</p>
+            </li>
+
+        </ul>
+    </div>
+    <!-- Six -->
+    <div class="six scrollBorder" id="thryve">
+        <ul class="six-con">
+            <li>
+                <p class="six-slogan1">Thryve for a cause</p>
+            </li>
+            <li>
+                <p class="six-slogan2">Doing right because it's the right thing to do</p>
+            </li>
+            <li>
+                <p class="six-slogan3">At Thryve we are passionate about a multitude of social issues - particularly in
+                    the areas of children's health and well-being, military veteran’s causes and social
+                    responsibility.Below is a list of non-profit initiatives that we are proud to support.</p>
+            </li>
+            <li>
+                <p class="logos-cause"><img class="causeLogo2" src="./Images/cause-logos.png"></p>
+            </li>
+        </ul>
+    </div>
+    <!-- Seven -->
+    <div class="seven scrollBorder" id="reach">
+        <h1 class="seven1">Reach us</h1>
+        <p class="seven2">Lets connect! We would love to chat to see how we can help your business thryve.
+        </p>
+        <ul class="seven-con">
+            <li>
+                <form>
+                    <input type="text" placeholder="Your name"><br><br>
+                    <input type="text" placeholder="Your email"><br><br>
+                    <textarea placeholder="Message"></textarea><br><br>
+                    <input class="connect" type="submit" value="Connect">
+                </form>
+            </li>
+            <!-- <li class="seven-border"></li> -->
+            <ul class="ContactDetails clearfix">
+                <li class="contactsprite phone">
+                    <a href="tel:+111111111">
+                        <img class="reach" src="./Images/mobile7.png">
+                        <p class="seven-contact">Call us at<br>11111</p>
+                    </a>
+                </li>
+
+                <li class="contactsprite location">
+                    <a>
+                        <img class="reach" src="./Images/location.png">
+                        <p class="seven-contact">200 State Street, 7th Floor<br>Boston, MA 02109</p>
+                    </a>
+                </li>
+                <li class="contactsprite email">
+                    <a href="mailto:abcdeefghe@gmail.com">
+                        <img class="reach" src="email.png">
+                        <p class="seven-contact">Email us at<br>contactabc@mail.com</p>
+                    </a>
+                </li>
+            </ul>
+        </ul>
+    </div>
+    <!-- Eight -->
+    <div class="eight scrollBorder">
+        <h1 class="eight-con">Thryve with us</h1>
+    </div>
+    <!-- Nine -->
+    <div class="nine scrollBorder">
+        <ul class="nine-con">
+            <li class="footer-li">
+                <img src="./Images/footerlogo.png"><br>
+                <p class="ninep">Where people, partners, and profits thryve</p>
+            </li>
+            <li class="footer-li">
+                <p>We are social </p>
+                <img src="./Images/socialiconssprite.png">
+                <p class="ninep"> &#169; Copyright 2014. All Rights Reserved.</p>
+            </li>
+        </ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
